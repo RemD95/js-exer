@@ -45,4 +45,7 @@ let num = 10
  /*Il prompt*/
  let word = prompt('Cane');
  
+ /*lunghezza della parola */
+ console.log(word.length);
+ 
 
