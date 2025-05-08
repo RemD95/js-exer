@@ -64,13 +64,18 @@ let numero = 16 ;
     }
 }   
 /* if & else , else & if */
-let score =parseInt() 
+ score =parseInt() 
 
 /* arary di numeri */
-let numeri = [0, 1, 2, 3, 4, 5, 6]
+const numeri = [0, 1, 2, 3, 4, 5];
 console.log(numeri);
 
-    
+/* somma i numeri */
+let somma = 0;
+for(let i = 0; i < numeri.length; i++){
+    somma += numeri[i];
+}
+    console.log(somma)
 
  
  
