@@ -56,14 +56,20 @@ do {
     console.log(world);
 /* if & else */
 let numero = 16 ;
-
 {
     if(numero > 5) {
        console.log('la variabile è maggiore di 5');
     } else {
         console.log('la variabile è minore di 5');
     }
-}          
+}   
+/* if & else , else & if */
+let score =parseInt() 
+
+/* arary di numeri */
+let numeri = [0, 1, 2, 3, 4, 5, 6]
+console.log(numeri);
+
     
 
  
