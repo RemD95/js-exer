@@ -38,9 +38,11 @@ for (let numbers = 0; numbers <= limite; numbers += 2) {
 let num = 10
  while(number >= 1) {
     if(number % 2 !== 0) {
-        console.log(number)
+        console.log(number);
     }
-    number--
+    number-- ;
  }
+ /*Il prompt*/
+ let word = prompt('Cane');
  
 
