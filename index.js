@@ -43,9 +43,20 @@ let num = 10
     number-- ;
  }
  /*Il prompt*/
- let word = prompt('Cane');
+ let word = 'cane'
  
  /*lunghezza della parola */
- console.log(word.length);
+ console.log(word.length); 
+
+ /*richiesta input corretto */
+let world ;
+do {
+    world = prompt('Inserisci una parola di almeno 5 caratteri:');
+    
+} while (world.length < 5)
+    console.log(world);
+    
+
+ 
  
 
