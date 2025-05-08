@@ -42,19 +42,28 @@ let num = 10
     }
     number-- ;
  }
- /*Il prompt*/
- let word = 'cane'
+ /*Il prompt
+ let word =prompt('cane')*/
  
- /*lunghezza della parola */
- console.log(word.length); 
+ /*lunghezza della parola 
+ console.log(word.length); */
 
  /*richiesta input corretto */
-let world ;
+let world 
 do {
     world = prompt('Inserisci una parola di almeno 5 caratteri:');
-    
-} while (world.length < 5)
+} while (world.length < 5);
     console.log(world);
+/* if & else */
+let numero = 16 ;
+
+{
+    if(numero > 5) {
+       console.log('la variabile è maggiore di 5');
+    } else {
+        console.log('la variabile è minore di 5');
+    }
+}          
     
 
  
