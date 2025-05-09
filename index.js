@@ -76,12 +76,21 @@ for(let i = 0; i < numeri.length; i++){
     somma += numeri[i];
 }
     console.log(somma)
-    /* array reverse  */
+/* array reverse  */
 const reverse = [];
 for(let i = numeri.length -1; i >= 0; i--){
     reverse.push(numeri[i]);
 }
     console.log(reverse);
+
+/*Crea un oggetto  */
+const person = [
+    { nome : 'Remus-Daniel Blaj' },
+    { age : 29},
+    { city : 'Rome, Italy'}
+];
+    console.log(person);
+
 
  
  
