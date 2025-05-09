@@ -134,6 +134,12 @@ const person = {
 
 /* accedi alle propietà */ 
     console.log(person.age);
+
+/* modifica la propietà */
+    person.age =30;
+console.log(person.age);
+
+/*  */
     
 
 
