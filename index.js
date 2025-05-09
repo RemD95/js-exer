@@ -67,7 +67,7 @@ let numero = 16 ;
  score =parseInt() 
 
 /* arary di numeri */
-const numeri = [0, 1, 2, 3, 4, 5];
+const numeri = [4, 5, 6, 7, 8, 9];
 console.log(numeri);
 
 /* somma i numeri */
@@ -76,6 +76,12 @@ for(let i = 0; i < numeri.length; i++){
     somma += numeri[i];
 }
     console.log(somma)
+    /* array reverse  */
+const reverse = [];
+for(let i = numeri.length -1; i >= 0; i--){
+    reverse.push(numeri[i]);
+}
+    console.log(reverse);
 
  
  
