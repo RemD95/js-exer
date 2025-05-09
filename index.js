@@ -139,7 +139,7 @@ const person = {
     person.age =30;
 console.log(person.age);
 
-/*  */
+/*agg. nuova propietà  */
     
 
 
