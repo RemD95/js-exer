@@ -84,12 +84,16 @@ for(let i = numeri.length -1; i >= 0; i--){
     console.log(reverse);
 
 /*Crea un oggetto  */
-const person = [
-    { nome : 'Remus-Daniel Blaj' },
-    { age : 29},
-    { city : 'Rome, Italy'}
-];
+const person = {
+     nome : 'Remus-Daniel Blaj' ,
+     age : 29,
+     city : 'Rome, Italy'
+};
     console.log(person);
+
+/* accedi alle propietà */ 
+    console.log(person.age);
+    
 
 
  
