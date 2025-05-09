@@ -5,11 +5,11 @@ console.log(valore,value);
 
 
 /*Cambio di valore*/
-
 let val = 5;
 console.log(val);
 val = 8;
 console.log(val);
+
 /*Ridefinizione di variabili*/
 let number = 10;
 console.log(number);
@@ -93,10 +93,6 @@ let numero = 16 ;
            break;
     }
 
-        
-    
-  
-
 /* arary di numeri */
 const numeri = [4, 5, 6, 7, 8, 9];
 console.log(numeri);
@@ -106,13 +102,27 @@ let somma = 0;
 for(let i = 0; i < numeri.length; i++){
     somma += numeri[i];
 }
-    console.log(somma)
+    console.log(somma);
+
 /* array reverse  */
 const reverse = [];
 for(let i = numeri.length -1; i >= 0; i--){
     reverse.push(numeri[i]);
 }
     console.log(reverse);
+
+/* popolamento array */
+const parole = [];
+
+for(let i = 0; i < 5; i++) {
+    let parola =prompt('inserisci parola qui:');
+    parole.push(parola);
+};
+for(let i = 0; i < parole.length; i++) {
+    if(parole[i].length % 2 !== 0){
+        console.log(parole[i]);
+    }
+}
 
 /*Crea un oggetto  */
 const person = {
