@@ -74,10 +74,25 @@ let numero = 16 ;
     }else if(score >= 0 && score <= 59) {
         console.log('Voto insufficiente');
     }else{
-        console.log('inserisci un valore valido!')
+        console.log('inserisci un valore valido!');
     };
 
-    /* */
+    /* switch case */
+    switch(score) {
+        case score >= 70 && score <= 89:
+         console.log('Voto ottimo');
+         break;
+         case score >= 69 && score <= 60:
+          console.log('Voto sufficiente');
+          break;
+          case score >= 0 && score <= 59:
+           console.log('Voto insufficiente');
+           break;
+           default:  
+           console.log('inserisci un valore valido!'); 
+           break;
+    }
+
         
     
   
