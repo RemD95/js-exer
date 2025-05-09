@@ -140,7 +140,7 @@ const person = {
 console.log(person.age);
 
 /*agg. nuova propietà  */
-    
+    person.job = 'web developer';
 
 
  
