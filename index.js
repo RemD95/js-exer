@@ -64,7 +64,23 @@ let numero = 16 ;
     }
 }   
 /* if & else , else & if */
- score =parseInt() 
+  let score =parseInt(prompt('inserisci un valore da 0 a 100:'));
+    if(score >= 90 && score <=100 ){
+        console.log('Voto ottimo');
+    }else if(score >= 70 && score <= 89){
+        console.log('Voto buono');
+    }else if(score >= 69 && score <= 60){
+        console.log('Voto sufficiente');
+    }else if(score >= 0 && score <= 59) {
+        console.log('Voto insufficiente');
+    }else{
+        console.log('inserisci un valore valido!')
+    };
+
+    /* */
+        
+    
+  
 
 /* arary di numeri */
 const numeri = [4, 5, 6, 7, 8, 9];
