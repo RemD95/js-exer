@@ -195,3 +195,13 @@ console.log(person.age);
 /* object.entries */
    const entries = Object.entries(student);
     console.log(entries);
+
+/* forEach&map */
+const numbs = [0, 1, 2, 3, 4, 5];
+ numbs.forEach((numer) => {
+    const times =numer * 2;
+    console.log(times);
+ });
+
+const squarednumbs = numbs.map(() => numer * 2);
+    console.log(times);
