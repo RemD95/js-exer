@@ -156,8 +156,12 @@ console.log(person.age);
         console.log(person[city]);
     };
 
-/*  */
-    
+/* funzioni annidate */
+    function outerFunction(x = 5) {
+        function innerFunction(y = 9){
+            return(x + y);
+        }
+    } return(innerFunction);
 
 
  
