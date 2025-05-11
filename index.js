@@ -163,6 +163,14 @@ console.log(person.age);
         }
     } return(innerFunction);
 
+    /* persistenza variabili locali */
+    function outerFunction(x = 5, initialValue = 12) {
+        let result = 12
+        function innerFunction(y = 9){
+            result += y;
+            return result;
+        }
+    } return(innerFunction);
 
  
  
