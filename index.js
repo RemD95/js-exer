@@ -141,6 +141,23 @@ console.log(person.age);
 
 /*agg. nuova propietà  */
     person.job = 'web developer';
+    
+/* iterazione delle propietà */
+    for (let nome in person){
+        console.log(nome);
+        console.log(person[nome]);
+    };
+    for (let age in person){
+        console.log(age);
+        console.log(person[age]);
+    };
+    for (let city in person){
+        console.log(city);
+        console.log(person[city]);
+    };
+
+/*  */
+    
 
 
  
