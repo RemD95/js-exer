@@ -172,6 +172,19 @@ console.log(person.age);
         }
     } return(innerFunction);
 
- 
- 
+/* Counter */
+ function createCounter (){
+    let count ;
+
+ }
+
+/* object.keys */
+    const student = {
+        name : 'Remus-Daniel Bla',
+        age : 29 ,
+        grade : 75,
+        school : 'ITTS Via Copernico'
+    }
+   const keys = Object.keys(student);
+    console.log(keys);
 
