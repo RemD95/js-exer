@@ -191,3 +191,7 @@ console.log(person.age);
 /* object.values */
    const values = Object.values(student);
     console.log(values);
+
+/* object.entries */
+   const entries = Object.entries(student);
+    console.log(entries);
