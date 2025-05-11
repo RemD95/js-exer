@@ -188,3 +188,6 @@ console.log(person.age);
    const keys = Object.keys(student);
     console.log(keys);
 
+/* object.values */
+   const values = Object.values(student);
+    console.log(values);
